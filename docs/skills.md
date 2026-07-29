@@ -70,4 +70,12 @@ ROS2·Nav2 알고리즘과 로봇 하드웨어 자체는 개인 구현 범위로
 - **Android**: Native File Picker, 앱 포커스·일시정지·날짜 변경 대응
 - **Data Integrity**: HashSet 기반 날짜 중복 방지, 기존 레코드 비변경 누락 보정
 - **Validation**: Unity Console, 주요 화면, 월별 정산, 백업 패널 동작 확인
+## PLT Monitor
+
+- **Engine / UI**: Unity 6000.3.10f1, C#, uGUI, URP
+- **Realtime Data**: 16개 대상 Transform 기록, 대상별 최근 600프레임 롤링 버퍼
+- **Visualization**: Overview·Detail·Focus, 다중·단일 시리즈 그래프 직접 렌더링
+- **Performance**: 데이터 기록과 UI redraw 주기 분리, Sliding Window, Object Pool
+- **Data / Storage**: Newtonsoft.Json, JSON, CSV, File Browser
+- **Validation**: Unity Console, 기능 체크리스트, 일반 실행 FPS, Windows Standalone Build
 

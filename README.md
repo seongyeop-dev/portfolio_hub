@@ -1,4 +1,4 @@
-# 김성엽 Project Portfolio
+﻿# 김성엽 Project Portfolio
 
 Unity와 C#을 중심으로 산업용 UI, 데이터 관리 애플리케이션과 ROS2 연계 로봇 관제 시스템을 구현한 교육 과정 및 개인 프로젝트 포트폴리오입니다.
 
@@ -16,6 +16,7 @@ Unity와 C#을 중심으로 산업용 UI, 데이터 관리 애플리케이션과
 |---|---|---|---|
 | Industrial Kiosk System | 확인 필요 | Unity, C#, TXT, JSON, CSV, PNG | 구현·문서·Windows 빌드 완료 |
 | TB3 Smart Factory Control Tower | 5인 팀 프로젝트 | Unity, C#, REST API, WebSocket, ROS2 연계 | 포트폴리오 문서화 완료, 일부 공개 검증 자료 보완 필요 |
+| PLT Monitor | 개인 프로젝트 | Unity, C#, uGUI, JSON, CSV | 구현·문서·Windows 빌드·GitHub 정리 완료 |
 | Quik Delivery | 개인 프로젝트 | Unity, C#, JSON, Android | 구현·문서·Android 빌드·GitHub 정리 완료 |
 
 ## 프로젝트별 대표 카드
@@ -66,8 +67,31 @@ Unity와 C#을 중심으로 산업용 UI, 데이터 관리 애플리케이션과
 - **상세 문서**: [TB3 Smart Factory Control Tower](docs/projects/tb3-smart-factory-control-tower.md)
 - **GitHub 저장소**: [kimseongyeop2811-ux/tb3-smart-factory-control-tower](https://github.com/kimseongyeop2811-ux/tb3-smart-factory-control-tower)
 
-### Quik Delivery
 
+### PLT Monitor
+
+- **한 줄 설명**: Unity 생산 라인에서 16개 오브젝트의 Transform 데이터를 실시간 기록하고 Overview·Detail·Focus 그래프로 분석하는 모니터링 시스템입니다.
+- **개발 목적**: 생산 라인 오브젝트의 Position·Rotation·Scale 변화를 관찰·기록하고 다중 대상 비교부터 단일 축 정밀 분석까지 연결합니다.
+- **프로젝트 유형**: 교육 과정 과제 기반 개인 프로젝트
+- **담당 역할**: 시스템 구조, Transform 기록, 그래프 UI, JSON·CSV 저장, 파일 조회, QA, Windows 빌드, GitHub 문서화
+- **사용 기술**: Unity 6, C#, uGUI, URP, Newtonsoft.Json, JSON, CSV
+- **핵심 기능**: 16개 대상 기록, 600프레임 롤링 버퍼, Overview·Detail·Focus, Live View, Meaning Analyzer, Save·Load File Browser
+- **핵심 기술 포인트**: Recorder·Provider·Renderer·UI 책임 분리, 데이터 기록과 UI redraw 주기 분리, Sliding Window
+- **주요 문제와 해결 과정**: 다중 그래프 갱신 비용을 화면별 갱신 주기와 표시 구간 제한으로 분리하고, 저장 순간의 CPU·GC spike를 측정해 Known Issue로 문서화했습니다.
+- **성능 및 안정화**: 일반 실행 60FPS 이상, 기존 QA 기준 100FPS 이상, 최근 600프레임 제한, Object Pool 기반 박스 재사용
+- **최종 결과**: Transform 실시간 모니터링, 그래프 분석, JSON·CSV 저장과 Windows Standalone 빌드를 완료했습니다.
+- **대표 이미지**:
+
+<p align="center">
+  <img src="assets/projects/plt-monitor/overview.png"
+       alt="PLT Monitor Overview"
+       width="95%">
+</p>
+
+- **상세 문서**: [PLT Monitor](docs/projects/plt-monitor.md)
+- **GitHub 저장소**: [kimseongyeop2811-ux/PLT_Monitor](https://github.com/kimseongyeop2811-ux/PLT_Monitor)
+
+### Quik Delivery
 - **한 줄 설명**: 배송 기록, 근무시간, 수익·비용 통계, 달력 조회와 월별 정산·백업을 통합한 Unity 기반 Android 업무 관리 앱입니다.
 - **개발 목적**: 실제 배송 업무 데이터를 모바일에서 기록하고 기간별 수익·비용과 정산 결과를 확인할 수 있도록 구성합니다.
 - **프로젝트 유형**: 개인 프로젝트
@@ -101,14 +125,16 @@ Unity와 C#을 중심으로 산업용 UI, 데이터 관리 애플리케이션과
 
 | 분류 | 기술 | 적용 프로젝트 |
 |---|---|---|
-| Engine / UI | Unity, C# | Kiosk, TB3, Quik Delivery |
+| Engine / UI | Unity, C# | Kiosk, TB3, PLT Monitor, Quik Delivery |
 | Robotics | ROS2, Nav2, TurtleBot3 | TB3 팀 시스템 연계 |
-| Programming | C# | Kiosk, TB3, Quik Delivery |
+| Programming | C# | Kiosk, TB3, PLT Monitor, Quik Delivery |
 | Data / Communication | TXT, JSON, CSV, PNG | Kiosk |
 | Data / Communication | REST API, WebSocket, JPEG Camera Stream | TB3 |
+| Data / Visualization | uGUI 실시간 그래프, Rolling Buffer, Sliding Window | PLT Monitor |
 | Data / Storage | JSON, `Application.persistentDataPath` | Quik Delivery |
+| File Data | JSON, CSV, File Browser | PLT Monitor |
 | Platform | Android | Quik Delivery |
-| Collaboration | Git, GitHub | Kiosk, TB3, Quik Delivery |
+| Collaboration | Git, GitHub | Kiosk, TB3, PLT Monitor, Quik Delivery |
 | Collaboration | Jira, Confluence, Slack | TB3 |
 
 세부 적용 범위와 개인 구현·팀 연동 경계는 [기술 스택 분류](docs/skills.md)에 정리했습니다.
@@ -125,6 +151,7 @@ Unity와 C#을 중심으로 산업용 UI, 데이터 관리 애플리케이션과
 
 - [Industrial Kiosk System 상세 문서](docs/projects/industrial-kiosk-system.md)
 - [TB3 Smart Factory Control Tower 상세 문서](docs/projects/tb3-smart-factory-control-tower.md)
+- [PLT Monitor 상세 문서](docs/projects/plt-monitor.md)
 - [Quik Delivery 상세 문서](docs/projects/quik-delivery.md)
 - [포트폴리오 문서 안내](docs/README.md)
 - [새 프로젝트 작성 템플릿](PROJECT_TEMPLATE.md)
@@ -133,13 +160,14 @@ Unity와 C#을 중심으로 산업용 UI, 데이터 관리 애플리케이션과
 
 - [Industrial Kiosk System](https://github.com/kimseongyeop2811-ux/Kiosk)
 - [TB3 Smart Factory Control Tower](https://github.com/kimseongyeop2811-ux/tb3-smart-factory-control-tower)
+- [PLT Monitor](https://github.com/kimseongyeop2811-ux/PLT_Monitor)
 - [TB3 팀 통합 저장소](https://github.com/eduwing-robotics/ros2-ai-amr-repo4)
 - [Quik Delivery](https://github.com/kimseongyeop2811-ux/quik-delivery)
 
 ## 추후 추가 예정 프로젝트
 
-- PLT Monitor — 로컬 저장소 확인, 다음 카드 작성 대상
 - FR5 Digital Twin — 경로·저장소·담당 범위 확인 필요
 - LIMO — 경로·저장소·담당 범위 확인 필요
 
 확인되지 않은 기간, 프로젝트 유형, 기여도와 링크는 [추가 확인 항목](docs/open-items.md)에서 관리합니다.
+

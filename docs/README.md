@@ -21,7 +21,7 @@ docs
 |---|---|---|---|---|---|
 | Industrial Kiosk System | 정리 완료 | 8개 문서 | 7장 | Unity C# 21개 및 프로젝트 구조 | 완성형 카드 |
 | TB3 Smart Factory Control Tower | 정리 완료 | 10개 문서와 근거 문서 | 공개 이미지 10장 | 로컬에는 C# 없음, 팀 통합 저장소 링크 확인 | 1차 카드, 공개 검증 보완 필요 |
-| PLT Monitor | 정리 완료 | README와 상세 docs 확인 | 화면 이미지 확인 | Unity 프로젝트 확인 | 다음 작업 대상 |
+| PLT Monitor | 정리 완료 | README와 상세 docs 확인 | 대표 이미지 확인 | Unity·Windows 프로젝트 확인 | 개별 저장소 정리 완료 |
 | Quik Delivery | 정리 완료 | README와 상세 문서 확인 | 대표 이미지 확인 | Unity·Android 프로젝트 확인 | 개별 저장소 정리 완료 |
 
 ## 공통 작성 기준
@@ -44,4 +44,5 @@ docs
 - [프로젝트 템플릿](../PROJECT_TEMPLATE.md)
 
 [포트폴리오 홈으로 돌아가기](../README.md)
+
 

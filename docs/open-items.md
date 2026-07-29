@@ -20,9 +20,13 @@
 
 ## PLT Monitor
 
-- 통합 카드 작성 범위와 우선순위
-- 개발 기간과 프로젝트 유형
-- 대표 이미지 1~3장 선정
+- 완료: 개별 GitHub 저장소 문서·코드 Push
+- 완료: `Portfolio_Projects\PLT_Monitor` 최종 Clone 및 working tree clean 확인
+- 완료: Overview 대표 이미지와 상세 문서의 Portfolio Hub 반영
+- 완료: Unity Console 에러 0개, 주요 그래프·파일 저장 기능과 Windows Build 확인
+- 남은 개선: JSON·CSV 저장 처리의 비동기화 또는 작업 분할
+- 남은 개선: 로드된 세션의 그래프 재생·비교
+- 남은 공개 자료: GitHub Release용 Windows 빌드
 
 ## 향후 프로젝트
 
@@ -46,5 +50,6 @@
 - 확인 완료: Unity Console 오류 없음 및 홈·기록·통계·정산·달력 화면 정상
 - 남은 최종 확인: 기존 설치 앱 위 APK 업데이트 설치
 - 남은 최종 확인: 업데이트 후 기존 기록 유지와 Android 백업 내보내기·복원 회귀 테스트
+
 
 

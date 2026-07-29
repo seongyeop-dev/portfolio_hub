@@ -45,4 +45,23 @@
 - 백업 패널
 
 개별 저장소의 images/에 공개용 스크린샷을 정리했으며, 통합 Hub에는 대표 이미지 1장을 사용합니다.
+## PLT Monitor
+
+### 통합 포트폴리오 대표 이미지
+
+- 경로: `assets/projects/plt-monitor/overview.png`
+- 화면: Overview
+- 상태: 적용 완료
+- 선택 이유: 16개 대상 비교, 그래프 UI와 생산 라인 모니터링 목적을 한 화면에서 보여줌
+
+### 개별 저장소 추가 이미지
+
+- Detail
+- Focus
+- Live View
+- Save / Load
+- Profiler
+- Project Assets
+
+개별 저장소의 `media/screenshots/`에 기능·QA 이미지를 정리했으며, 통합 Hub에는 Overview 대표 이미지 1장을 사용합니다.
 
