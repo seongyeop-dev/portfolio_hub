@@ -91,9 +91,9 @@ Unity 생산 라인의 16개 대상에서 Transform 데이터를 기록하고 Ov
 
 <p align="center">
   <a href="https://github.com/seongyeop-dev/fr5_cocktail_robot_demo">
-    <img src="assets/projects/fr5_cocktail_robot_demo/overview.jpg"
-         alt="FR5 Cocktail Robot Demo"
-         width="90%">
+    <p align="center">
+  <img src="assets/projects/fr5_cocktail_robot_demo/overview.jpg" alt="FR5 Cocktail Robot Demo" width="560">
+</p>
   </a>
 </p>
 
