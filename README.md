@@ -1,7 +1,6 @@
 # 김성엽 | Robotics · Smart Factory Portfolio
 
-> Unity와 C#을 중심으로 로봇 관제, 산업용 UI, 실시간 데이터 시각화와 업무 관리 애플리케이션을 개발한 프로젝트 포트폴리오입니다.
-
+> Unity·C# 기반 로봇 관제와 산업용 UI부터 Python·FastAPI·Next.js 기반 정보 수집·검토 애플리케이션까지, 실제 문제를 구조화하고 데이터 흐름과 사용자 화면으로 구현한 프로젝트 포트폴리오입니다.
 이 저장소는 프로젝트 소스와 상세 문서를 중복 보관하지 않습니다. 각 프로젝트의 핵심 역할과 결과를 요약하고, 독립 GitHub 저장소로 연결하는 통합 인덱스입니다.
 
 ## Projects
@@ -13,7 +12,7 @@
 | **PLT Monitor** | 16개 대상의 Transform 기록과 실시간 그래프 분석 | Unity, C#, uGUI, JSON, CSV | [GitHub](https://github.com/seongyeop-dev/plt_monitor) |
 | **Quik Delivery** | 배송·근무·통계·정산·백업을 통합한 Android 앱 | Unity, C#, JSON, Android | [GitHub](https://github.com/seongyeop-dev/quik_delivery) |
 | **FR5 Cocktail Robot Demo** | 실제 FR5 Pick & Place와 메뉴별 제조 순서 중간 시연 | FR5, Lua, PTP, LIN, Spiral | [GitHub](https://github.com/seongyeop-dev/fr5_cocktail_robot_demo) |
-
+| **Investment AI Radar**            | 공시·중요 정보·참고자료·일정을 통합해 종목별 관리 근거와 변경 기반 브리핑 정리 | Python, FastAPI, Next.js, TypeScript, SQLite |          [GitHub](https://github.com/seongyeop-dev/INVESTMENT_AI_RADAR)          |
 ## Featured Project
 
 ### TB3 Smart Factory Control Tower
@@ -35,7 +34,17 @@ TurtleBot3·ROS2·서버 데이터를 Unity 2D·3D 화면에 연결해 로봇 �
 - **링크**: [개인 포트폴리오 저장소](https://github.com/seongyeop-dev/tb3_smart_factory_control_tower) · [팀 ControlTower UI](https://github.com/eduwing-robotics/ros2-ai-amr-repo4/tree/main/controltower_ui)
 
 ## Additional Projects
+### Investment AI Radar
 
+공식 공시, 중요 정보, 공개 참고자료와 경제·기업 일정을 한곳에서 수집·검토하고, 출처와 근거를 기준으로 종목별 관리 방향과 변경 기반 브리핑을 정리하는 개인 투자정보 관리 프로젝트입니다.
+
+![Investment AI Radar 오늘의 분석](assets/projects/investment_ai_radar/overview.png)
+
+- **핵심 구현**: 공식 출처·참고자료 등록, 중요 정보·공시·일정 확인, 통합 사건 연결, 변경 기반 브리핑
+- **관리 기준**: 사용자 위험 기준과 종목별 관리 방향을 규칙 기반으로 정리하고 부족한 데이터는 추정하지 않고 그대로 표시
+- **안전 범위**: 자동 주문·자동매매·증권계좌 연동 없이 최종 투자 판단과 실제 주문은 사용자에게 유지
+- **품질 확인**: Backend 625/625, UI 43/43, Next.js 18/18 routes, Playwright E2E 11/11 PASS
+- **저장소**: [INVESTMENT_AI_RADAR](https://github.com/seongyeop-dev/INVESTMENT_AI_RADAR)
 ### Industrial Kiosk System
 
 <p align="center">
@@ -109,6 +118,7 @@ FR5 Unity Digital Twin 개발 과정에서 실제 FR5 로봇의 Pick & Place와 
 | 분류 | 기술 |
 |:---|:---|
 | Engine · UI | Unity, C#, uGUI, TextMeshPro |
+| Backend · Web | Python, FastAPI, Next.js, React, TypeScript, SQLAlchemy    |
 | Robotics | ROS2, Nav2, TurtleBot3, FR5 |
 | Communication | REST API, WebSocket, JPEG Camera Stream, ROS–TCP |
 | Data | JSON, CSV, TXT, SQLite, `Application.persistentDataPath` |
