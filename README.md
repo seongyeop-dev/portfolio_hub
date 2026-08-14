@@ -12,7 +12,7 @@
 | **PLT Monitor** | 16개 대상의 Transform 기록과 실시간 그래프 분석 | Unity, C#, uGUI, JSON, CSV | [GitHub](https://github.com/seongyeop-dev/plt_monitor) |
 | **Quik Delivery** | 배송·근무·통계·정산·백업을 통합한 Android 앱 | Unity, C#, JSON, Android | [GitHub](https://github.com/seongyeop-dev/quik_delivery) |
 | **FR5 Cocktail Robot Demo** | 실제 FR5 Pick & Place와 메뉴별 제조 순서 중간 시연 | FR5, Lua, PTP, LIN, Spiral | [GitHub](https://github.com/seongyeop-dev/fr5_cocktail_robot_demo) |
-| **Investment AI Radar**            | 공시·중요 정보·참고자료·일정을 통합해 종목별 관리 근거와 변경 기반 브리핑 정리 | Python, FastAPI, Next.js, TypeScript, SQLite |          [GitHub](https://github.com/seongyeop-dev/INVESTMENT_AI_RADAR)          |
+| **Investment AI Radar**            | 공시·중요 정보·참고자료·일정을 통합해 종목별 관리 근거와 변경 기반 브리핑 정리 | Python, FastAPI, Next.js, TypeScript, SQLite |          [GitHub](https://github.com/seongyeop-dev/investment_ai_radar)          |
 ## 대표 프로젝트
 
 ### TB3 Smart Factory Control Tower
@@ -44,7 +44,7 @@ TurtleBot3·ROS2·서버 데이터를 Unity 2D·3D 화면에 연결해 로봇 �
 - **관리 기준**: 사용자 위험 기준과 종목별 관리 방향을 규칙 기반으로 정리하고 부족한 데이터는 추정하지 않고 그대로 표시
 - **안전 범위**: 자동 주문·자동매매·증권계좌 연동 없이 최종 투자 판단과 실제 주문은 사용자에게 유지
 - **품질 확인**: Backend 625/625, UI 43/43, Next.js 18/18 routes, Playwright E2E 11/11 PASS
-- **저장소**: [INVESTMENT_AI_RADAR](https://github.com/seongyeop-dev/INVESTMENT_AI_RADAR)
+- **저장소**: [investment_ai_radar](https://github.com/seongyeop-dev/investment_ai_radar)
 ### Industrial Kiosk System
 
 <p align="center">
