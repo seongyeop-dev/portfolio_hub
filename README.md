@@ -3,7 +3,7 @@
 > Unity·C# 기반 로봇 관제와 산업용 UI부터 Python·FastAPI·Next.js 기반 정보 수집·검토 애플리케이션까지, 실제 문제를 구조화하고 데이터 흐름과 사용자 화면으로 구현한 프로젝트 포트폴리오입니다.
 이 저장소는 프로젝트 소스와 상세 문서를 중복 보관하지 않습니다. 각 프로젝트의 핵심 역할과 결과를 요약하고, 독립 GitHub 저장소로 연결하는 통합 인덱스입니다.
 
-## Projects
+## 프로젝트 목록
 
 | 프로젝트 | 핵심 내용 | 주요 기술 | 저장소 |
 |:---|:---|:---|:---:|
@@ -13,7 +13,7 @@
 | **Quik Delivery** | 배송·근무·통계·정산·백업을 통합한 Android 앱 | Unity, C#, JSON, Android | [GitHub](https://github.com/seongyeop-dev/quik_delivery) |
 | **FR5 Cocktail Robot Demo** | 실제 FR5 Pick & Place와 메뉴별 제조 순서 중간 시연 | FR5, Lua, PTP, LIN, Spiral | [GitHub](https://github.com/seongyeop-dev/fr5_cocktail_robot_demo) |
 | **Investment AI Radar**            | 공시·중요 정보·참고자료·일정을 통합해 종목별 관리 근거와 변경 기반 브리핑 정리 | Python, FastAPI, Next.js, TypeScript, SQLite |          [GitHub](https://github.com/seongyeop-dev/INVESTMENT_AI_RADAR)          |
-## Featured Project
+## 대표 프로젝트
 
 ### TB3 Smart Factory Control Tower
 
@@ -33,7 +33,7 @@ TurtleBot3·ROS2·서버 데이터를 Unity 2D·3D 화면에 연결해 로봇 �
 - **결과**: Dashboard·Factory·Robot·Map·Camera View와 팀 서버·ROS2 명령 흐름 통합
 - **링크**: [개인 포트폴리오 저장소](https://github.com/seongyeop-dev/tb3_smart_factory_control_tower) · [팀 ControlTower UI](https://github.com/eduwing-robotics/ros2-ai-amr-repo4/tree/main/controltower_ui)
 
-## Additional Projects
+## 추가 프로젝트
 ### Investment AI Radar
 
 공식 공시, 중요 정보, 공개 참고자료와 경제·기업 일정을 한곳에서 수집·검토하고, 출처와 근거를 기준으로 종목별 관리 방향과 변경 기반 브리핑을 정리하는 개인 투자정보 관리 프로젝트입니다.
@@ -113,7 +113,7 @@ FR5 Unity Digital Twin 개발 과정에서 실제 FR5 로봇의 Pick & Place와 
 - **결과**: 메뉴 1·메뉴 2·Pick & Place 실제 시연 완료
 - **저장소**: [fr5_cocktail_robot_demo](https://github.com/seongyeop-dev/fr5_cocktail_robot_demo)
 
-## Core Skills
+## 핵심 기술
 
 | 분류 | 기술 |
 |:---|:---|
@@ -125,7 +125,7 @@ FR5 Unity Digital Twin 개발 과정에서 실제 FR5 로봇의 Pick & Place와 
 | Visualization | 2D·3D 관제 UI, 실시간 그래프, 상태·경로 시각화 |
 | Collaboration | Git, GitHub, Jira, Confluence, Slack |
 
-## Repository Policy
+## 저장소 운영 원칙
 
 - 이 저장소는 완료 프로젝트를 연결하는 통합 인덱스입니다.
 - 상세 기능, 아키텍처, 데이터 흐름과 검증 결과는 각 프로젝트 저장소에서 관리합니다.
