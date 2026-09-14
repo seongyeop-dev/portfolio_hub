@@ -27,6 +27,14 @@
 
 ### AI Vision · 품질검사
 
+<p align="center">
+  <a href="https://github.com/eduwing-robotics/ros2-ai-cobot-repo2/tree/main/ai_perception">
+    <img src="assets/projects/ai_housing_vision/overview.png"
+         alt="AI 기반 조립식 주택 자동화 공장 - AI Vision 품질검사"
+         width="100%">
+  </a>
+</p>
+
 조립식 주택 생산 공정에서 **자재 수입검사와 조립 결과 품질검사**를 담당한 팀 프로젝트입니다.
 
 - **프로젝트 유형**: 교육과정 팀 프로젝트
